@@ -131,11 +131,11 @@ To refresh all the cookbooks in `cookbooks/` per the `Cheffile`, run the followi
 
 	cookbooks/          Librarian stored (cached) upstream cookbooks from `Cheffile`.
 	examples/           Examples folder for Chef, Chef Solo.
-  Cheffile            The librarian-chef sources file
-  Cheffile.lock       The lock file from librarian-chef cookbook fetches
-  README.md           This file
-  update-metadata.sh  A shell script, `update-metadata.sh` is provided to re-generate particular cookbooks `metadata.json` (such as upstream cookbooks that do not include a `metadata.json`)
-  Vagrantfile         Vagrant configuration file for provision a vagrant box
+	Cheffile            The librarian-chef sources file
+	Cheffile.lock       The lock file from librarian-chef cookbook fetches
+	README.md           This file
+	update-metadata.sh  A shell script, `update-metadata.sh` is provided to re-generate particular cookbooks `metadata.json` (such as upstream cookbooks that do not include a `metadata.json`)
+	Vagrantfile         Vagrant configuration file for provision a vagrant box
 
 #TODO
 
