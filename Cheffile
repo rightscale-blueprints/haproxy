@@ -3,6 +3,12 @@
 
 site 'http://community.opscode.com/api/v1'
 
+# using fork due to pending
+# https://github.com/opscode-cookbooks/haproxy/pull/28
+# http://tickets.opscode.com/browse/COOK-3216
 cookbook 'haproxy',
-  :git => 'https://github.com/opscode-cookbooks/haproxy',
+  :git => 'https://github.com/flaccid/haproxy',
   :ref => 'master'
+#cookbook 'haproxy',
+#  :git => 'https://github.com/opscode-cookbooks/haproxy',
+#  :ref => 'master'

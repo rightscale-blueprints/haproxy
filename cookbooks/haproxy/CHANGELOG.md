@@ -1,3 +1,23 @@
+## v1.3.2:
+
+### Bug
+
+- [COOK-3046]: haproxy default recipe broken by COOK-2656
+
+### Task
+
+- [COOK-2009]: Add test-kitchen support to haproxy
+
+## v1.3.0:
+
+### Improvement
+
+- [COOK-2656]: Unify the haproxy.cfg with that from app_lb
+
+### New Feature
+
+- [COOK-1488]: Provide an option to build haproxy from source
+
 ## v1.2.0:
 
 * [COOK-1936] - use frontend / backend logic
